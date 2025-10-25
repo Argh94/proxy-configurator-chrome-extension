@@ -2,12 +2,7 @@
 
 <div align="center">
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4CAF50?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)  
-[![Latest Release](https://img.shields.io/github/v/release/Argh94/ProxyProwler-VPN-Manager?label=Latest%20Release)](https://github.com/Argh94/ProxyProwler-VPN-Manager/releases)  
-[![Stars](https://img.shields.io/github/stars/Argh94/ProxyProwler-VPN-Manager?style=social)](https://github.com/Argh94/ProxyProwler-VPN-Manager/stargazers)  
-[![License](https://img.shields.io/github/license/Argh94/ProxyProwler-VPN-Manager)](https://github.com/Argh94/ProxyProwler-VPN-Manager/blob/main/LICENSE)  
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)  
-[![Webpack](https://img.shields.io/badge/Built%20with-Webpack-8DD6F9?logo=webpack&logoColor=black)](https://webpack.js.org/)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4CAF50?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore) [![Latest Release](https://img.shields.io/github/v/release/Argh94/ProxyProwler-VPN-Manager?label=Latest%20Release)](https://github.com/Argh94/ProxyProwler-VPN-Manager/releases) [![Stars](https://img.shields.io/github/stars/Argh94/ProxyProwler-VPN-Manager?style=social)](https://github.com/Argh94/ProxyProwler-VPN-Manager/stargazers) [![License](https://img.shields.io/github/license/Argh94/ProxyProwler-VPN-Manager)](https://github.com/Argh94/ProxyProwler-VPN-Manager/blob/main/LICENSE) [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Webpack](https://img.shields.io/badge/Built%20with-Webpack-8DD6F9?logo=webpack&logoColor=black)](https://webpack.js.org/)
 
 </div>
 
