@@ -1,13 +1,18 @@
 {
   "name": "proxy-configurator-chrome-extension",
   "version": "3.3.0",
-  "description": "Professional Chrome proxy manager with TypeScript",
+  "description": "Professional Chrome proxy extension with TypeScript + Webpack",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "dev": "webpack --mode development --watch --config webpack.config.js"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.268",
-    "typescript": "^5.5.0"
+    "copy-webpack-plugin": "^12.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
   }
 }
