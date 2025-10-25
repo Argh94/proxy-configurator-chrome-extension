@@ -6,8 +6,7 @@
 
 </div>
 
-> One-click Chrome proxy manager for proxy-configurator-chrome-extension
-> Bypass restrictions, hide your IP, and stay anonymous — with a single power button
+> **One-click Chrome proxy manager for proxy-configurator-chrome-extension proxies** > Bypass restrictions, hide your IP, and stay anonymous — **with a single power button** ---
 
 ---
 
