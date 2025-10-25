@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "ProxyProwler VPN Manager",
+  "version": "3.3.0",
+  "description": "Professional Chrome proxy manager for SOCKS5/SOCKS4/HTTPS proxies from ProxyProwler. Bypass restrictions with one click.",
+  "author": "Argh94",
+  "homepage_url": "https://github.com/Argh94/ProxyProwler-VPN-Manager",
+
+  "permissions": [
+    "proxy",
+    "storage",
+    "webRequest",
+    "webRequestAuthProvider",
+    "notifications",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "options_page": "options.html",
+
+  "minimum_chrome_version": "96"
+}
