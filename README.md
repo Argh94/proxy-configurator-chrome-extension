@@ -37,12 +37,12 @@
 ## Screenshots
 
 <div align="center">
-  <img src="screenshots/popup.png" alt="Popup UI" width="300" />
+  <img src="icons/popup.png" alt="Popup UI" width="300" />
   <br><br>
   <em>Clean one-page interface with a power button</em>
 </div>
 
-> Tip: Replace `screenshots/popup.png` with your actual screenshot file in the repository.
+> Tip: Replace `icons/popup.png` with your actual screenshot file in the repository.
 
 ---
 
