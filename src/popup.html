@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+    *, *::before, *::after { box-sizing: border-box; }
+    body { 
+      width: 300px; 
+      padding: 15px; 
+      margin: 0; 
+      font-family: Arial, sans-serif; 
+      background: #f8f9fa; 
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 12px;
+    }
+    label {
+      display: block; 
+      font-size: 13px; 
+      margin-bottom: 4px; 
+      color: #555;
+      font-weight: 600;
+    }
+    select, input {
+      width: 100%; 
+      padding: 8px; 
+      border: 1px solid #ced4da; 
+      border-radius: 4px; 
+      font-size: 14px;
+      background: white;
+    }
+    input[type="password"] {
+      font-family: 'Courier New', monospace;
+    }
+
+    .power-container {
+      text-align: center; 
+      margin: 20px 0;
+    }
+    .power-btn {
+      background: none; 
+      border: none; 
+      cursor: pointer; 
+      padding: 0;
+      transition: transform 0.2s;
+    }
+    .power-btn:hover { transform: scale(1.1); }
+    .power-btn svg {
+      width: 56px; 
+      height: 56px; 
+      stroke-width: 2;
+    }
+    .power-btn.off svg { stroke: #dc3545; }
+    .power-btn.on svg { stroke: #28a745; }
+
+    .status {
+      text-align: center; 
+      font-size: 13px; 
+      margin-top: 8px;
+    }
+    .status-dot {
+      display: inline-block; 
+      width: 8px; 
+      height: 8px; 
+      border-radius: 50%; 
+      margin-right: 5px;
+    }
+    .status.on .status-dot { background: #28a745; }
+    .status.off .status-dot { background: #dc3545; }
+
+    .footer {
+      text-align: center; 
+      margin-top: 15px; 
+      font-size: 11px; 
+      color: #777;
+    }
+    .footer a {
+      color: #007bff; 
+      text-decoration: none;
+    }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <div class="form-group">
+    <label>Type</label>
+    <select id="proxyType">
+      <option value="http">HTTP</option>
+      <option value="https">HTTPS</option>
+      <option value="socks5">SOCKS5</option>
+      <option value="socks4">SOCKS4</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Host</label>
+    <input type="text" id="proxyHost" placeholder="e.g. 190.2.142.51" />
+  </div>
+
+  <div class="form-group">
+    <label>Port</label>
+    <input type="text" id="proxyPort" placeholder="e.g. 1080" />
+  </div>
+
+  <div class="form-group">
+    <label>Username (optional)</label>
+    <input type="text" id="proxyUser" placeholder="Leave empty for public proxies" />
+  </div>
+
+  <div class="form-group">
+    <label>Password (optional)</label>
+    <input type="password" id="proxyPass" placeholder="Leave empty for public proxies" />
+  </div>
+
+  <div class="power-container">
+    <button class="power-btn off" id="powerBtn">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+        <line x1="12" y1="2" x2="12" y2="12"></line>
+      </svg>
+    </button>
+    <div class="status off" id="statusText">
+      <span class="status-dot"></span> Disconnected
+    </div>
+  </div>
+
+  <div class="footer">
+    Get proxies from <a href="https://github.com/Argh94/ProxyProwler" target="_blank">ProxyProwler</a>
+  </div>
+
+  <script src="functions.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
