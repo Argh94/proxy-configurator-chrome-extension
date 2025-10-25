@@ -1,0 +1,13 @@
+{
+  "name": "proxy-configurator-chrome-extension",
+  "version": "3.3.0",
+  "description": "Professional Chrome proxy manager with TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "typescript": "^5.5.0"
+  }
+}
